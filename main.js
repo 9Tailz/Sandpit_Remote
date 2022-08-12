@@ -1,9 +1,7 @@
 console.log('Hellow')
 
-const btn = document.getElementById('readybtn');
+document.getElementById("myBtn").addEventListener("click",test)
 
-btn.addEventListener("click", click());
-
-function click(){
+function test(){
     console.log('click');
 }
