@@ -1,7 +1,5 @@
-from email.policy import HTTP
 from http import server
-from http.server import BaseHTTPRequestHandler, HTTPServer, SimpleHTTPRequestHandler
-import time
+from http.server import  HTTPServer, SimpleHTTPRequestHandler
 
 
 hostname='localhost'
